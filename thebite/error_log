@@ -1,0 +1,178 @@
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP Fatal error:  Call to undefined function env() in /home/gyn3tf8dpe4s/public_html/app/routes.php on line 13
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP Stack trace:
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->boot() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:743
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP   9. Illuminate\Foundation\Application->bootApplication() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:587
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP  10. Illuminate\Foundation\Application->fireAppCallbacks() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:604
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP  11. call_user_func:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:830}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:830
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP  12. {closure:/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php:223-271}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:830
+[28-Mar-2019 12:35:42 Asia/Kolkata] PHP  13. require() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php:269
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP Fatal error:  Call to undefined function env() in /home/gyn3tf8dpe4s/public_html/app/routes.php on line 13
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP Stack trace:
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->boot() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:743
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP   9. Illuminate\Foundation\Application->bootApplication() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:587
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP  10. Illuminate\Foundation\Application->fireAppCallbacks() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:604
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP  11. call_user_func:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:830}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:830
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP  12. {closure:/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php:223-271}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:830
+[28-Mar-2019 12:35:43 Asia/Kolkata] PHP  13. require() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php:269
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ':' in /home/gyn3tf8dpe4s/public_html/app/controllers/ListingController.php on line 67
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP Stack trace:
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP   9. Illuminate\Routing\Router->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  11. Illuminate\Routing\Route->run() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  12. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  15. Illuminate\Routing\ControllerDispatcher->makeController() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:51
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  16. Illuminate\Foundation\Application->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:78
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  17. Illuminate\Container\Container->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:462
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  18. Illuminate\Container\Container->build() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:428
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  19. ReflectionClass->__construct() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  20. spl_autoload_call() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[15-Apr-2019 15:33:22 Asia/Kolkata] PHP  21. Illuminate\Support\ClassLoader::load() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:35:04 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php on line 2409
+[06-May-2019 14:35:04 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[06-May-2019 14:35:04 Asia/Kolkata] PHP   9. Illuminate\Routing\Router->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  11. Illuminate\Routing\Route->run() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  12. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  15. Illuminate\Routing\ControllerDispatcher->makeController() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:51
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  16. Illuminate\Foundation\Application->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:78
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  17. Illuminate\Container\Container->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:462
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  18. Illuminate\Container\Container->build() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:428
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  19. ReflectionClass->__construct() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  20. spl_autoload_call() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:35:04 Asia/Kolkata] PHP  21. Illuminate\Support\ClassLoader::load() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:36:06 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php on line 2409
+[06-May-2019 14:36:06 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[06-May-2019 14:36:06 Asia/Kolkata] PHP   9. Illuminate\Routing\Router->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  11. Illuminate\Routing\Route->run() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  12. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  15. Illuminate\Routing\ControllerDispatcher->makeController() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:51
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  16. Illuminate\Foundation\Application->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:78
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  17. Illuminate\Container\Container->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:462
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  18. Illuminate\Container\Container->build() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:428
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  19. ReflectionClass->__construct() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  20. spl_autoload_call() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:36:06 Asia/Kolkata] PHP  21. Illuminate\Support\ClassLoader::load() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:37:15 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91492352 bytes) in /home/gyn3tf8dpe4s/public_html/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php on line 1255
+[06-May-2019 14:37:15 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:37:15 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:37:15 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:37:15 Asia/Kolkata] PHP   3. Symfony\Component\HttpFoundation\Response->send() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:643
+[06-May-2019 14:37:15 Asia/Kolkata] PHP   4. Symfony\Component\HttpFoundation\Response::closeOutputBuffers() /home/gyn3tf8dpe4s/public_html/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:381
+[06-May-2019 14:37:15 Asia/Kolkata] PHP   5. ob_end_flush() /home/gyn3tf8dpe4s/public_html/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:1255
+[06-May-2019 14:37:45 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91492352 bytes) in /home/gyn3tf8dpe4s/public_html/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php on line 1255
+[06-May-2019 14:37:45 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:37:45 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:37:45 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:37:45 Asia/Kolkata] PHP   3. Symfony\Component\HttpFoundation\Response->send() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:643
+[06-May-2019 14:37:45 Asia/Kolkata] PHP   4. Symfony\Component\HttpFoundation\Response::closeOutputBuffers() /home/gyn3tf8dpe4s/public_html/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:381
+[06-May-2019 14:37:45 Asia/Kolkata] PHP   5. ob_end_flush() /home/gyn3tf8dpe4s/public_html/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php:1255
+[06-May-2019 14:38:22 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126091264 bytes) in /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php on line 2408
+[06-May-2019 14:38:22 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[06-May-2019 14:38:22 Asia/Kolkata] PHP   9. Illuminate\Routing\Router->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  11. Illuminate\Routing\Route->run() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  12. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:62
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  16. Illuminate\Routing\Controller->callAction() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:93
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  17. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  18. UserController->showOpeningupdatehours() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[06-May-2019 14:38:22 Asia/Kolkata] PHP  19. print_r() /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php:2408
+[06-May-2019 14:39:16 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126091264 bytes) in /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php on line 2408
+[06-May-2019 14:39:16 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[06-May-2019 14:39:16 Asia/Kolkata] PHP   9. Illuminate\Routing\Router->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  11. Illuminate\Routing\Route->run() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  12. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  15. Illuminate\Routing\ControllerDispatcher->call() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:62
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  16. Illuminate\Routing\Controller->callAction() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:93
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  17. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  18. UserController->showOpeningupdatehours() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:231
+[06-May-2019 14:39:16 Asia/Kolkata] PHP  19. print_r() /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php:2408
+[06-May-2019 14:41:23 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/gyn3tf8dpe4s/public_html/app/controllers/UserController.php on line 2409
+[06-May-2019 14:41:23 Asia/Kolkata] PHP Stack trace:
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   1. {main}() /home/gyn3tf8dpe4s/public_html/index.php:0
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   2. Illuminate\Foundation\Application->run() /home/gyn3tf8dpe4s/public_html/index.php:50
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   3. Stack\StackedHttpKernel->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:641
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   4. Illuminate\Cookie\Guard->handle() /home/gyn3tf8dpe4s/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php:23
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   5. Illuminate\Cookie\Queue->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php:51
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   6. Illuminate\Session\Middleware->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php:47
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   7. Illuminate\Foundation\Application->handle() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Session/Middleware.php:72
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   8. Illuminate\Foundation\Application->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:745
+[06-May-2019 14:41:23 Asia/Kolkata] PHP   9. Illuminate\Routing\Router->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:775
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  10. Illuminate\Routing\Router->dispatchToRoute() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1001
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  11. Illuminate\Routing\Route->run() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1033
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  12. call_user_func_array:{/home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  13. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php:109
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  14. Illuminate\Routing\ControllerDispatcher->dispatch() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:967
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  15. Illuminate\Routing\ControllerDispatcher->makeController() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:51
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  16. Illuminate\Foundation\Application->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:78
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  17. Illuminate\Container\Container->make() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:462
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  18. Illuminate\Container\Container->build() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:428
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  19. ReflectionClass->__construct() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  20. spl_autoload_call() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
+[06-May-2019 14:41:23 Asia/Kolkata] PHP  21. Illuminate\Support\ClassLoader::load() /home/gyn3tf8dpe4s/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:504
